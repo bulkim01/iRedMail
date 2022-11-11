@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 #
 # Author:       Kilo300
 # Purpose:      Show users in mail group.

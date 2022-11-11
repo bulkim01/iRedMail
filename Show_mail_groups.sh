@@ -9,4 +9,4 @@
 echo
 echo "There are mailing groups:"
 echo
-sudo -u postgres psql -d vmail -c "select address, name from alias;"
+sudo -u postgres psql -d vmail -c "SELECT address, name FROM alias ORDER BY address;"
